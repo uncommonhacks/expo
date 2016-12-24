@@ -13,7 +13,7 @@ h1 {
   margin-top:0px;
   margin-bottom:0px;
   /* height: 60px; */
-  line-height: 80px;
+  /*line-height: 80px;*/
 }
 
 table {
@@ -137,10 +137,25 @@ input {
   margin: 30px 0 10px 0;
 }
 
+.logo {
+  vertical-align:middle; width:80px;
+}
+
 
 @media (max-width: 768px) {
   #header {
     width: 100%;
+  }
+
+  h1 {
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .logo {
+    vertical-align:middle; 
+    width:60px;
   }
 
   input {
